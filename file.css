@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+  min-height: 100vh;
+}
+
+/* Card */
+.card {
+  border: none;
+  border-radius: 12px;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #4e73df;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #2e59d9;
+}
+
+/* Hover effects */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Dashboard */
+.sidebar {
+  height: 100vh;
+  background-color: #4e73df;
+  color: white;
+}
+
+/* Smooth transition */
+* {
+  transition: all 0.3s ease;
+}
